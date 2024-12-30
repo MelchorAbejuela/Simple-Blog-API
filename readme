@@ -1,0 +1,5 @@
+to run the project:
+
+1. run the "npm install" command
+2. create a .env file with a format 
+    DB_CONNECTION_STRING="<your own mongo db connection string>"

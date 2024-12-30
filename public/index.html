@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Simple Blog API</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="upper-part">
+            <div class="home-profile-container"><img src="" alt=""></div>
+            <input type="text" placeholder="What's on your mind?" class="input-element">
+        </div>
+
+        <!-- create a post -->
+        <div class="create-post-container">
+            <a href="index.html">Go back</a>
+            <div class="create-post-header">
+                <img src="" alt="">
+                <div>
+                    <p class="profile-name">Melchor Abejuela</p>
+                    <select class="select-audience">
+                        <option value="friends">Friends</option>
+                        <option value="public">Public</option>
+                        <option value="only me">Only me</option>
+                    </select>
+                </div>
+            </div>
+            <div class="create-post-body">
+                <textarea placeholder="What's on your mind?" class="text-area"></textarea>
+                <div class="post-button-container">
+                    <div class="cancel-button-container"></div>
+                    <button type="submit" class="post-submit-button">Post</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- posts container -->
+        <div class="fetched-posts-container"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
